@@ -1,0 +1,49 @@
+{
+  "seller": [
+    {
+      "data": {
+        "email": "jhj",
+        "password": "kk"
+      },
+      "id": 1
+    },
+    {
+      "data": {
+        "email": "kkrishna6sharma@gmail.com",
+        "password": "jh"
+      },
+      "id": 2
+    },
+    {
+      "data": {
+        "email": "jjjjjj",
+        "password": "ppp"
+      },
+      "id": 3
+    },
+    {
+      "data": {
+        "name": "",
+        "email": "",
+        "password": ""
+      },
+      "id": 4
+    },
+    {
+      "data": {
+        "name": "arman",
+        "email": "arma@",
+        "password": "@123"
+      },
+      "id": 5
+    },
+    {
+      "data": {
+        "name": "",
+        "email": "",
+        "password": ""
+      },
+      "id": 6
+    }
+  ]
+}
