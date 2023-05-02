@@ -9,7 +9,9 @@ import { signUp } from '../data-type';
 })
 export class SellerAuthComponent {
 
-  showLogin=false;                                                //toggle switch properfu in signup ans signin page
+
+  showLogin=false;    
+  AuthError:string='';                                            //toggle switch properfu in signup ans signin page
   constructor(private seller:SellerService){
 
   }
@@ -24,8 +26,13 @@ this.seller.userSignUp(data)
 
 }
 login(data:signUp){
- 
+ this.AuthError='';
   this.seller.userLogin(data)
+  this.seller.isLoginError.subscribe((isError)=>{
+    if(isError){
+      this.AuthError="Email And Password Does Not Match"
+    }
+  })
 }
 
 openLogin(){

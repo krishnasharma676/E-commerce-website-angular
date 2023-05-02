@@ -2,22 +2,25 @@
   "seller": [
     {
       "data": {
-        "email": "jhj",
-        "password": "kk"
+        "name": "krishna",
+        "email": "kkrishna6sharma@gmail.com",
+        "password": "@123"
       },
       "id": 1
     },
     {
       "data": {
-        "email": "kkrishna6sharma@gmail.com",
-        "password": "jh"
+        "name": "",
+        "email": "",
+        "password": ""
       },
       "id": 2
     },
     {
       "data": {
-        "email": "jjjjjj",
-        "password": "ppp"
+        "name": "",
+        "email": "",
+        "password": ""
       },
       "id": 3
     },
@@ -28,22 +31,30 @@
         "password": ""
       },
       "id": 4
+    }
+  ],
+  "products": [
+    {
+      "data": {
+        "name": "iphone14 ",
+        "price": "100000",
+        "color": "black",
+        "Category": "mobile",
+        "Description": "best mobile",
+        "image": "https://itronics.in/wp-content/uploads/2021/09/iphone-13-pink-select-2021.png"
+      },
+      "id": 1
     },
     {
       "data": {
-        "name": "arman",
-        "email": "arma@",
-        "password": "@123"
+        "name": "nokia",
+        "price": "20000",
+        "color": "whitw",
+        "Category": "mobile",
+        "Description": "ssdd",
+        "image": "https://5.imimg.com/data5/UH/JW/MY-40083844/nokia-1650-fm-mobile-phone-500x500.jpeg"
       },
-      "id": 5
-    },
-    {
-      "data": {
-        "name": "",
-        "email": "",
-        "password": ""
-      },
-      "id": 6
+      "id": 2
     }
   ]
 }

@@ -1,7 +1,9 @@
 
 <div>
-  
-  <form *ngIf="!showLogin"  #sellerSignup="ngForm" (ngSubmit)="signUp(sellerSignup.value)">
+  <div *ngIf="!showLogin" >
+    
+  <form  #sellerSignup="ngForm" (ngSubmit)="signUp(sellerSignup.value)">
+    <h1 class="animated-heading">sellerSignup</h1>
     <label for="name">Name:</label>
     <input type="text"  name="name"  ngModel placeholder="Enter Name">
     <label for="email">Email:</label>
@@ -12,10 +14,15 @@
     <a (click)="openLogin()" class="home-link">Already Have Account? Login In.</a>
 
   </form>
+</div>
 
 
+<div *ngIf="showLogin">
 
-  <form *ngIf="showLogin" #sellerSignup="ngForm" (ngSubmit)="signUp(sellerSignup.value)">    
+  <form  #sellerLogin="ngForm" (ngSubmit)="login(sellerLogin.value)" >  
+    <p style="color: red;" class="animated-heading"> {{AuthError}}</p>
+    <h1 class="animated-heading">sellerLogin</h1>
+
     <label for="email">Email:</label>
     <input  type="email" name="email" ngModel placeholder="Enter Email">
     <label for="password">Password:</label>
@@ -23,6 +30,7 @@
     <button type="submit">SignIn</button>
     <a (click)="openSignUp()" class="home-link">Dont Have Account? SignUp.</a>
   </form>
+</div>
 
 
 </div>

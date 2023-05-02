@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { EventEmitter, Injectable } from '@angular/core';
 import {HttpClient} from '@angular/common/http'
 import { Login, signUp } from '../data-type';
 import{BehaviorSubject} from 'rxjs'
@@ -7,27 +7,44 @@ import { Router } from '@angular/router';
   providedIn: 'root'
 })
 export class SellerService {
-isSellerLoggedIn= new BehaviorSubject<boolean >(false)     // authguard 
+isSellerLoggedIn= new BehaviorSubject<boolean>(false)    // authguard 
+isLoginError= new EventEmitter<boolean>(false)    // authguard 
  constructor(private http:HttpClient, private router:Router) { }
+
+
   userSignUp(data:signUp){
   this.http.post('http://localhost:3000/seller',{data},
    {observe:'response'}).subscribe((result)=>{
-    this.isSellerLoggedIn.next(true)                      // authguard value is true so authguard is true
+    if(result){                
     localStorage.setItem('seller',JSON.stringify(result.body))  // for add data from local storage
     this.router.navigate(['seller-home'])
+  }
 
    })
   
   }
+
+
   reloadSeller(){
 if(localStorage.getItem('seller')){
-  this.isSellerLoggedIn.next(true);
+  this.isSellerLoggedIn.next(true);              //// authguard value is true so authguard is true
   this.router.navigate(['seller-home'])
 }
   }
 
   userLogin(data:Login){
+    
     console.log(data)
-    //api
+    this.http.get(`http://localhost:3000/seller?email=${data.email}&password=${data.password}`,{observe:'response'}).subscribe((result:any)=>{
+console.log(result)
+if(result && result.body && result.body.length){
+  console.log("login")
+  localStorage.setItem('seller',JSON.stringify(result.body))  // for add data from local storage
+    this.router.navigate(['seller-home'])
+}else{
+  console.log("loginfailed")
+  this.isLoginError.emit(true)
+}
+    })
   }
 }

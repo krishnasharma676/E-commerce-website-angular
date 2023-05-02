@@ -1,18 +1,25 @@
 <nav>
 	<div class="left">
-	  <img src="https://imgs.search.brave.com/QGWBqFlUOLH-OAabvmKOMA5tRWB74QPnSZ69vLLLEoc/rs:fit:900:520:1/g:ce/aHR0cHM6Ly9tcG5n/LnN1YnBuZy5jb20v/MjAxODA0MDYvenpl/L2tpc3Nwbmctb25s/aW5lLXNob3BwaW5n/LXNob3BwaW5nLWNh/cnQtc29mdHdhcmUt/ZS1jb21tZXJjZS1z/b2xkLW91dC01YWM3/MTU2ZGYzYTE4Ny45/NTc0OTkyNzE1MjI5/OTY1ODk5OTc5Lmpw/Zw"
-	  alt="Logo">
+	 <a routerLink=""> <img src="https://imgs.search.brave.com/QGWBqFlUOLH-OAabvmKOMA5tRWB74QPnSZ69vLLLEoc/rs:fit:900:520:1/g:ce/aHR0cHM6Ly9tcG5n/LnN1YnBuZy5jb20v/MjAxODA0MDYvenpl/L2tpc3Nwbmctb25s/aW5lLXNob3BwaW5n/LXNob3BwaW5nLWNh/cnQtc29mdHdhcmUt/ZS1jb21tZXJjZS1z/b2xkLW91dC01YWM3/MTU2ZGYzYTE4Ny45/NTc0OTkyNzE1MjI5/OTY1ODk5OTc5Lmpw/Zw"
+	  alt="Logo"></a>
 	  
 	</div>
-	<div class="middle">
+	<div *ngIf="menutype==='default'" class="middle">
 	  <input type="text" placeholder="Search...">
 	</div>
-	<div class="right">
+	<div [ngSwitch]="menutype"  class="right">
+		<ul *ngSwitchCase="'default'" >
 	  <a routerLink="seller">seller</a>
 	  <a routerLink="">Home</a>
 	  <a routerLink="seller">Login</a>
 	  <a routerLink="seller">Cart</a>
-	  
+	</ul>
+		<ul *ngSwitchCase="'seller'" >
+	  <a routerLink="seller-add-product">Add Product</a>
+	  <a routerLink="seller-home">List</a>
+	  <a (click)="logout()">Logout</a>
+	  <a routerLink="seller">{{sellername | titlecase}}</a>
+	</ul>
 	</div>
   </nav>
   
