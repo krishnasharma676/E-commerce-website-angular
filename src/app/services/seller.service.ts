@@ -13,7 +13,7 @@ isLoginError= new EventEmitter<boolean>(false)    // authguard
 
 
   userSignUp(data:signUp){
-  this.http.post('http://localhost:3000/seller',{data},
+  this.http.post('http://localhost:3000/seller',data,
    {observe:'response'}).subscribe((result)=>{
     if(result){                
     localStorage.setItem('seller',JSON.stringify(result.body))  // for add data from local storage
@@ -37,8 +37,10 @@ if(localStorage.getItem('seller')){
     console.log(data)
     this.http.get(`http://localhost:3000/seller?email=${data.email}&password=${data.password}`,{observe:'response'}).subscribe((result:any)=>{
 console.log(result)
-if(result && result.body && result.body.length){
-  console.log("login")
+
+if(result && result.body && result.body.length===1){
+this.isLoginError.emit(false)
+  
   localStorage.setItem('seller',JSON.stringify(result.body))  // for add data from local storage
     this.router.navigate(['seller-home'])
 }else{

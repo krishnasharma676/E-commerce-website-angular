@@ -1,18 +1,26 @@
 table {
   border-collapse: collapse;
   width: 100%;
+  border-color: rgb(51,51,51) ;
+  margin-top: 10px;
+ 
 }
 
-th, td {
+ td {
+  
+  color: black;
   padding: 8px;
   text-align: left;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid rgb(51,51,51);
   
 }
 
 th {
-  background-color: #4CAF50;
-  color: white,
+  background-color: rgb(51,51,51);
+  color: white;
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd,
 }
 
 td img {
@@ -20,4 +28,20 @@ td img {
   margin: 0 auto;
   max-width: 100%;
   height: auto;
+}
+p {
+  text-align: center;
+  color: red;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  /* other styles... */
+}
+
+.adjust-edit-icon{
+  margin-left: 5px;
 }

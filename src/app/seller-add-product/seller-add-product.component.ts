@@ -17,8 +17,7 @@ if(result){
   this.addProductMessage="Product Is Sucessfully Added"
 }
   })
-  setTimeout(() => 
-    this.addProductMessage=undefined,3000)
+  setTimeout(() => this.addProductMessage=undefined,3000)
   
 
 }

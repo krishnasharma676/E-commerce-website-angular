@@ -1,0 +1,13 @@
+<form #updateproduct="ngForm" (ngSubmit)="submit(updateproduct.value)" >
+    <h1 class="animated-heading">Update Product</h1>
+   
+    <input type="text"  name="name"  ngModel placeholder="Enter Product Name">
+    <input type="text"  name="price"  ngModel placeholder="Enter Product Price">
+    <input type="text"  name="color"  ngModel placeholder="Enter  Product Color">
+    <input type="text"  name="Category"  ngModel placeholder="Enter  Product Category ">
+    <textarea class="textarea" type="text" name="Description"  ngModel placeholder="Enter Product Description"></textarea>
+    <input type="text"  name="image"  ngModel placeholder="Enter Product Image URL">
+    
+    <button class="myButton" type="submit">Update Product</button>
+
+  </form>

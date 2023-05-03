@@ -5,40 +5,34 @@ import { signUp } from '../data-type';
 @Component({
   selector: 'app-seller-auth',
   templateUrl: './seller-auth.component.html',
-  styleUrls: ['./seller-auth.component.css']
+  styleUrls: ['./seller-auth.component.css'],
 })
 export class SellerAuthComponent {
-
-
-  showLogin=false;    
-  AuthError:string='';                                            //toggle switch properfu in signup ans signin page
-  constructor(private seller:SellerService){
-
+  showLogin = false;
+  AuthError: string = ''; //toggle switch properfu in signup ans signin page
+  constructor(private seller: SellerService) {}
+  ngOnInit(): void {
+    this.seller.reloadSeller();
   }
-  ngOnInit():void{
-    
-      this.seller.reloadSeller()
-   
-  }
-signUp(data:signUp):void{
-
-this.seller.userSignUp(data)
-
-}
-login(data:signUp){
- this.AuthError='';
-  this.seller.userLogin(data)
-  this.seller.isLoginError.subscribe((isError)=>{
-    if(isError){
-      this.AuthError="Email And Password Does Not Match"
+  signUp(data: signUp): void {
+    if(data != null){
+    this.seller.userSignUp(data);
     }
-  })
-}
+  }
+  login(data: signUp) {
+    this.AuthError = '';
+    this.seller.userLogin(data);
+    this.seller.isLoginError.subscribe((isError) => {
+      if (isError) {
+        this.AuthError = 'Email And Password Does Not Match';
+      }
+    });
+  }
 
-openLogin(){
-this.showLogin=true;
-}
-openSignUp(){
-  this.showLogin=false;
-}
+  openLogin() {
+    this.showLogin = true;
+  }
+  openSignUp() {
+    this.showLogin = false;
+  }
 }
