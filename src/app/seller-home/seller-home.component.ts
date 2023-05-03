@@ -14,8 +14,7 @@ export class SellerHomeComponent implements OnInit {
 
  deleteicon=faTrash;
  editicon=faEdit;
-
-  constructor(private productService: ProductService) {}
+  constructor(private product: ProductService) {}
 
   ngOnInit(): void {
     this.list();
@@ -24,7 +23,7 @@ export class SellerHomeComponent implements OnInit {
 
   deleteproduct(id: number) {
     console.log(id)
-    this.productService.deleteproduct(id).subscribe((result) => {
+    this.product.deleteproduct(id).subscribe((result) => {
       if(result){
       this.productmessage = 'Product is deleted';
 this.list()
@@ -36,11 +35,11 @@ this.list()
           },3000);
   }
   list(){
-    this.productService.productList().subscribe((result) => {
+    this.product.productList().subscribe((result) => {
     
       if(result){
         this.productList = result;
-      console.log('json data =', this.productList);
+      // console.log('json data =', this.productList);
       }
     })
   }

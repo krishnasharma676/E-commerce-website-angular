@@ -10,7 +10,7 @@ export class ProductService {
   constructor(private http:HttpClient) { }
   addProduct(data:product){
     console.log("service product")
-    return this.http.post('http://localhost:3000/products',{data});
+    return this.http.post('http://localhost:3000/products',data);
   }
   productList(){
     return this.http.get<product[]>('http://localhost:3000/products');
@@ -21,6 +21,11 @@ export class ProductService {
   }
 
   getproduct(id:string){
-    return this.http.get(`http://localhost:3000/products/${id}`)
+    return this.http.get<product>(`http://localhost:3000/products/${id}`)
+  }
+
+
+  updateproduct(product:product){
+    return this.http.put<product[]>(`http://localhost:3000/products/${product.id}`,product);
   }
 }

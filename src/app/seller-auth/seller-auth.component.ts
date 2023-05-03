@@ -15,9 +15,9 @@ export class SellerAuthComponent {
     this.seller.reloadSeller();
   }
   signUp(data: signUp): void {
-    if(data != null){
+    
     this.seller.userSignUp(data);
-    }
+    
   }
   login(data: signUp) {
     this.AuthError = '';
