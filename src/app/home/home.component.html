@@ -1,1 +1,51 @@
-<p>home works!</p>
+<ngb-carousel
+	*ngIf="popularproducts"
+	[showNavigationArrows]="showNavigationArrows"
+	[showNavigationIndicators]="showNavigationIndicators"
+>
+	<ng-template ngbSlide *ngFor="let item of popularproducts">
+		<div class="product-header-image">
+			<img src="{{item.image}}" alt="Random slide" />
+		</div>
+		<div class="carousel-caption">
+			<h3>{{item.name}}</h3>
+			<p>{{item.description}}</p>
+		</div>
+	</ng-template>
+</ngb-carousel>
+
+  
+<!-- <div *ngIf="trendyproduct" class="column">
+<div class="card" *ngFor="let item of trendyproduct">
+    <img class="card-img-top" src="{{item.image}}" alt="logo">
+    <div class="card-body">
+      <h6 class="card-title">{{item.name}}</h6>
+      <p class="card-text">{{item.price}}</p>
+      <p class="card-text">{{item.color}}</p>
+      
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"><a href="">view details</a> | <a href="">view details</a> </small>
+    </div>
+  </div>
+</div>
+  
+ -->
+
+ <div *ngIf="trendyproduct" class="column-container">
+
+ <div class="card" *ngFor="let product of trendyproduct">
+    <img class="card-img-top" src="{{ product.image }}" alt="{{ product.name }}">
+    <div class="card-body">
+      <h3 class="card-title"> {{ product.name }}</h3>
+      <p class="card-text">price : {{ product.price }}</p>
+      <p class="card-text">color : {{ product.color }}</p>
+      
+    </div>
+    <div class="card-footer">
+     <a href="">view details</a>|<a href="">view product</a>
+    </div>
+  </div>
+  
+</div>
+  

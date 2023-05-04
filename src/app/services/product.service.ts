@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { product } from '../data-type';
+import { Router } from '@angular/router';
 
 @Injectable({
   providedIn: 'root'
@@ -27,5 +28,16 @@ export class ProductService {
 
   updateproduct(product:product){
     return this.http.put<product[]>(`http://localhost:3000/products/${product.id}`,product);
+    
+    
+  }
+
+
+  popularproducts(){
+    return this.http.get<product[]>('http://localhost:3000/products?_limit=3');
+  }
+
+  trendyproducts(){
+    return this.http.get<product[]>('http://localhost:3000/products?_limit=10')
   }
 }
