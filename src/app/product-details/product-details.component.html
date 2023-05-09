@@ -1,0 +1,21 @@
+<div class="product-details" *ngIf="productData">
+    <div class="product-image" >
+      <img src="{{productData.image}}" alt="Product Image">
+    </div>
+    <div class="product-info">
+      <h2>{{productData.name}}</h2>
+      color:<p [style.background]="productData.color" class="product-color"></p>
+      <p>Description: {{productData.description}}</p>
+      <p>Price: {{productData.price}}</p>
+      <div class="quantity-controls">
+        <button class="quantity-button minus" (click)="dec()">-</button>
+        <span class="quantity">{{count}}</span>
+        <button class="quantity-button plus" (click)="inc()">+</button>
+      </div>
+      
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="add-to-cart">Add to Cart</button>
+  
+    </div>
+  </div>
+  

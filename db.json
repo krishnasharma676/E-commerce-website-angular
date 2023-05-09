@@ -59,98 +59,221 @@
       "email": "",
       "password": "",
       "id": 10
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 11
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 12
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 13
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 14
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 15
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 16
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 17
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 18
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 19
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 20
     }
   ],
   "products": [
     {
-      "name": "mobile",
+      "name": "laptop",
       "price": "20000",
-      "color": "white",
-      "category": "ss",
-      "description": "jshkdjsd",
-      "image": "https://cdn.shopify.com/s/files/1/0070/7032/files/trending-products_c8d0d15c-9afc-47e3-9ba2-f7bad0505b9b.png?format=jpg&quality=90&v=1614559651",
+      "color": "black",
+      "Category": "laptop",
+      "Description": "Which types of work are subject to copyright?\nCopyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
+      "image": "https://www.stuff.tv/wp-content/uploads/sites/2/2021/04/Stuff-Best-Laptop-Lead.png",
       "id": 2
     },
     {
-      "name": "mobile",
+      "name": "laptop",
       "price": "20000",
-      "color": "white",
-      "category": "ss",
-      "description": "jshkdjsd",
-      "image": "data:image/jpeg;base64,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",
+      "color": "laptop",
+      "category": "desktop",
+      "description": "Which types of work are subject to copyright?\nCopyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
+      "image": "https://5.imimg.com/data5/PA/AG/AP/SELLER-28111010/all-variety-of-i3-laptop-i5-laptops-i7-laptop-amd-laptop-gaming-laptop-commercial-laptop--500x500.jpg",
       "id": 3
     },
     {
-      "name": "mobile",
+      "name": "cups",
       "price": "20000",
-      "color": "white",
-      "category": "ss",
-      "description": "jshkdjsd",
-      "image": "data:image/jpeg;base64,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",
+      "color": "blue",
+      "Category": "grocery",
+      "Description": "Which types of work are subject to copyright?\nCopyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
+      "image": "https://cdn.shopify.com/s/files/1/2690/0106/products/MatteFinishCup_9.png?v=1605695308",
       "id": 4
     },
     {
-      "name": "mobile",
+      "name": "cups",
       "price": "20000",
-      "color": "white",
-      "category": "ss",
-      "description": "jshkdjsd",
-      "image": "data:image/jpeg;base64,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",
+      "color": "laptop",
+      "category": "grocery",
+      "description": "Which types of work are subject to copyright?\nCopyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
+      "image": "https://m.media-amazon.com/images/I/61HGZKNaU+L._SX425_.jpg",
       "id": 5
     },
     {
-      "name": "mobile",
+      "name": "cups",
       "price": "20000",
-      "color": "white",
-      "category": "ss",
-      "description": "jshkdjsd",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT95zNHMzK7E1QlchpAhSzUOhkx40bj6xTJ1g&usqp=CAU",
+      "color": "laptop",
+      "category": "grocery",
+      "description": "Which types of work are subject to copyright?\nCopyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
+      "image": "https://www.bigbasket.com/media/uploads/p/xxl/40134648_2-iveo-chai100-melamine-smart-coffee-cup-set-red.jpg",
       "id": 6
     },
     {
-      "name": "mobile",
-      "price": "20000",
-      "color": "white",
-      "category": "ss",
-      "description": "jshkdjsd",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9LfIOqH32LTSET-j1z5t3QgovLsZJJz5XnA&usqp=CAU",
-      "id": 7
-    },
-    {
-      "name": "mobile",
-      "price": "20000",
-      "color": "white",
-      "category": "ss",
-      "description": "jshkdjsd",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt5ub2SrGnKo6b50SLaZpqplUF7qoBsvwM2A&usqp=CAU",
-      "id": 8
-    },
-    {
-      "name": "mobile",
-      "price": "20000",
-      "color": "white",
-      "category": "ss",
-      "description": "jshkdjsd",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSAw9ckGNVV0iHRqDEU0aaqYt0fGDhAIe_hA&usqp=CAU",
-      "id": 9
-    },
-    {
-      "name": "isis",
-      "price": "123",
-      "color": "ssks",
-      "category": "sldms",
-      "description": "ss,ls",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJu5fUeUN8aw3i7_3YdmE4SQ0dkYTomUk3rA&usqp=CAU",
-      "id": 10
-    },
-    {
-      "name": "Krishna ",
+      "name": "nokia ",
       "price": "100000",
       "color": "black",
-      "category": "sds",
-      "description": "sss",
+      "category": "mobile",
+      "description": "Which types of work are subject to copyright? Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJu5fUeUN8aw3i7_3YdmE4SQ0dkYTomUk3rA&usqp=CAU",
-      "id": 11
+      "id": 14
+    },
+    {
+      "name": "nokia ",
+      "price": "100000",
+      "color": "black",
+      "category": "mobile",
+      "description": "Which types of work are subject to copyright? Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
+      "image": "https://5.imimg.com/data5/UH/JW/MY-40083844/nokia-1650-fm-mobile-phone-500x500.jpeg",
+      "id": 15
+    },
+    {
+      "name": "nokia ",
+      "price": "100000",
+      "color": "black",
+      "category": "mobile",
+      "description": "Which types of work are subject to copyright? Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
+      "image": "https://itronics.in/wp-content/uploads/2021/09/iphone-13-pink-select-2021.png",
+      "id": 16
+    },
+    {
+      "name": "nokia ",
+      "price": "100000",
+      "color": "black",
+      "category": "mobile",
+      "description": "Which types of work are subject to copyright? Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
+      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+      "id": 18
+    },
+    {
+      "name": "nokia ",
+      "price": "100000",
+      "color": "black",
+      "category": "mobile",
+      "description": "Which types of work are subject to copyright? Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
+      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+      "id": 19
+    },
+    {
+      "name": "nokia ",
+      "price": "100000",
+      "color": "black",
+      "category": "mobile",
+      "description": "Which types of work are subject to copyright? Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
+      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+      "id": 20
+    },
+    {
+      "name": "nokia ",
+      "price": "100000",
+      "color": "black",
+      "category": "mobile",
+      "description": "Which types of work are subject to copyright? Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
+      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+      "id": 21
+    },
+    {
+      "name": "nokia ",
+      "price": "100000",
+      "color": "black",
+      "category": "mobile",
+      "description": "Which types of work are subject to copyright? Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
+      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+      "id": 22
+    },
+    {
+      "name": "nokia ",
+      "price": "100000",
+      "color": "black",
+      "category": "mobile",
+      "description": "Which types of work are subject to copyright? Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
+      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+      "id": 23
+    },
+    {
+      "name": "nokia ",
+      "price": "100000",
+      "color": "black",
+      "category": "mobile",
+      "description": "Which types of work are subject to copyright? Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
+      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+      "id": 24
+    },
+    {
+      "name": "nokia ",
+      "price": "100000",
+      "color": "black",
+      "category": "mobile",
+      "description": "Which types of work are subject to copyright? Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
+      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+      "id": 25
+    },
+    {
+      "name": "nokia ",
+      "price": "100000",
+      "color": "black",
+      "category": "mobile",
+      "description": "Which types of work are subject to copyright? Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
+      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+      "id": 26
     }
   ]
 }

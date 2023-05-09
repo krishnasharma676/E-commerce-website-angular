@@ -37,6 +37,14 @@ form {
     border-color: #333;
     box-shadow: 0 0 10px #ccc;
   }
+
+  input::placeholder {
+    color: #999;
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+
   
   input[type="text"]:focus,
   input[type="email"]:focus,
@@ -110,7 +118,17 @@ form {
     border-color: #666;
     
   }
-  
+
+  .my-component {
+   padding-top: 10px;
+   padding-bottom: 10px;
+    background-image: url('https://paymentcloudinc.com/blog/wp-content/uploads/2021/08/product-ideas-to-sell.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .animated-heading{
+    color: white;
+  }
   
 
   

@@ -5,14 +5,23 @@
 	  
 	</div>
 	<div *ngIf="menutype==='default'" class="middle">
-	  <input type="text" placeholder="Search...">
+	  <input #searchinput type="text" (keyup)="searchproducts($event)" (blur)="hidesearch()" placeholder="Search...">
+	  <button (click)="submitinput(searchinput.value)" >search</button> 
+	  <ul class="suggested-result" *ngIf="searchresult">
+<li *ngFor="let item of searchresult"><a>{{item.name}}</a></li>
+	  </ul>
+	  
+
+	
+
+
 	</div>
 	<div [ngSwitch]="menutype"  class="right">
 		<ul *ngSwitchCase="'default'" >
 	  <a routerLink="seller">seller</a>
 	  <a routerLink="">Home</a>
 	  <a routerLink="seller">Login</a>
-	  <a routerLink="seller">Cart</a>
+	  <a routerLink="search">Cart</a>
 	</ul>
 		<ul *ngSwitchCase="'seller'" >
 	  <a routerLink="seller-add-product">Add Product</a>

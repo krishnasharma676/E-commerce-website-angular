@@ -3,9 +3,17 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    background-color: #333;
+    background-color: rgb(27,1,37);
     color: #fff;
     padding: 0 20px;
+    
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 999; */
   }
   
   .left img {
@@ -16,7 +24,19 @@ nav {
   .middle {
     flex: 1;
     margin: 0 20px;
+    display: flex;
+    
   }
+  .middle button{
+    border: none;
+    background-color: wheat;
+    border-left: none;
+  }
+  .middle input[type="search"]:focus {
+    outline: none;
+    border: none;
+  }
+  
   
   .middle input {
     width: 100%;
@@ -24,15 +44,19 @@ nav {
     border: none;
     font-size: 16px;
     padding: 10px;
-    border-radius: 5px;
         border: none;
         font-size: 16px;
         padding: 10px;
-        border-radius: 5px;
         box-reflect: below 0px linear-gradient(transparent, rgba(255, 255, 255, 0.2));
+        outline: none;
+        border-bottom: 1px rgba(255, 255, 255, 0.2);
 
       
   }
+
+ 
+  
+
   
   .right {
     display: flex;
@@ -54,4 +78,35 @@ nav {
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
   }
   
+  .suggested-result{
+    position: absolute;
+    display: list-item;
+    z-index: 10;
+    background-color: white;
+    color: black;
+    width: 54.4rem;
+    list-style-type: none;
+    /* margin: 0; */
+  }
+  .suggested-result li{
+    padding: 10px;
+    border-bottom: 1px solid #634d4d;
+ 
+
+  }
+
+
+  .suggested-result li:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+    border: 1px solid rgb(207, 172, 172);
+  }
+
+  .suggested-result li a {
+    cursor: pointer;
+    color:blueviolet;
+  }
+
+
+
   

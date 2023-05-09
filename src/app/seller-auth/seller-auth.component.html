@@ -1,5 +1,5 @@
 
-<div>
+<div class="my-component">
   <div *ngIf="!showLogin" >
     
   <form  #sellerSignup="ngForm" (ngSubmit)="signUp(sellerSignup.value)">
@@ -17,9 +17,8 @@
 </div>
 
 
-<div *ngIf="showLogin">
-
-  <form  #sellerLogin="ngForm" (ngSubmit)="login(sellerLogin.value)" >  
+<div *ngIf="showLogin"  >
+  <form   #sellerLogin="ngForm" (ngSubmit)="login(sellerLogin.value)" >  
     <p style="color: red;" class="animated-heading"> {{AuthError}}</p>
     <h1 class="animated-heading">sellerLogin</h1>
 

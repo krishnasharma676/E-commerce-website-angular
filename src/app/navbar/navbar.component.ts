@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { ProductService } from '../services/product.service';
+import { product } from '../data-type';
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
@@ -8,8 +10,9 @@ import { Router } from '@angular/router';
 export class NavbarComponent {
   menutype:string='default';
 sellername:string='';
+searchresult:undefined|product[];
 
-constructor( private route:Router){}
+constructor( private route:Router,private product:ProductService){}
 ngOnInit():void{
 this.route.events.subscribe((val:any)=>{
   if(val.url){
@@ -33,5 +36,27 @@ this.menutype='seller'
 logout(){
   localStorage.removeItem('seller');
   this.route.navigate([''])
+}
+
+searchproducts(query:KeyboardEvent){
+if(query){
+  const element= query.target as HTMLInputElement;
+this.product.searchproduct(element.value).subscribe((result)=>{
+console.log(result)
+if(result.length>5){
+  result.length=6;
+}
+
+this.searchresult=result;
+})
+}
+}
+hidesearch(){
+  this.searchresult=undefined
+}
+
+submitinput(val:string){
+console.log(val)
+this.route.navigate([`Search/${val}`])
 }
 }
