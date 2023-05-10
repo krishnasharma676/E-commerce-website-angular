@@ -3,8 +3,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    background-color: rgb(27,1,37);
-    color: #fff;
+    background-color:rgb(22,27,34);
+    color:white;
     padding: 0 20px;
     
     /* position: fixed;
@@ -29,8 +29,9 @@ nav {
   }
   .middle button{
     border: none;
-    background-color: wheat;
+    background-color: rgb(136,136,138) ;
     border-left: none;
+    color: white;
   }
   .middle input[type="search"]:focus {
     outline: none;
@@ -61,6 +62,7 @@ nav {
   .right {
     display: flex;
     align-items: center;
+    margin-top: 10px;
   }
   
   .right a {
@@ -71,12 +73,11 @@ nav {
     font-size: larger;
   }
   .right a:hover {
-    color: #48ced8;
+    color: #88888a;
     text-decoration: underline;
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
-    transition: all 0.3s ease-in-out;
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
   }
+
+ 
   
   .suggested-result{
     position: absolute;

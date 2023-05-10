@@ -119,161 +119,121 @@
       "email": "",
       "password": "",
       "id": 20
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 21
     }
   ],
   "products": [
     {
-      "name": "laptop",
+      "name": "Apple 200",
+      "price": "20000",
+      "color": "white",
+      "category": "watch",
+      "description": "Designed and built by the ng-bootstrap team with the help of our contributors.\n\nCode licensed under MIT license conditions.\n\nDocumentation licensed under CC BY 3.0. Design and content of the documentation site heavily inspired by the original Bootstrap ",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=799&q=80",
+      "id": 1
+    },
+    {
+      "name": "sunglasses black",
       "price": "20000",
       "color": "black",
-      "Category": "laptop",
-      "Description": "Which types of work are subject to copyright?\nCopyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
-      "image": "https://www.stuff.tv/wp-content/uploads/sites/2/2021/04/Stuff-Best-Laptop-Lead.png",
+      "category": "glasses",
+      "description": "Designed and built by the ng-bootstrap team with the help of our contributors.\n\nCode licensed under MIT license conditions.\n\nDocumentation licensed under CC BY 3.0. Design and content of the documentation site heavily inspired by the original Bootstrap ",
+      "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
       "id": 2
     },
     {
-      "name": "laptop",
+      "name": "boat headphone",
       "price": "20000",
-      "color": "laptop",
-      "category": "desktop",
-      "description": "Which types of work are subject to copyright?\nCopyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
-      "image": "https://5.imimg.com/data5/PA/AG/AP/SELLER-28111010/all-variety-of-i3-laptop-i5-laptops-i7-laptop-amd-laptop-gaming-laptop-commercial-laptop--500x500.jpg",
+      "color": "black",
+      "category": "headphones",
+      "description": "Designed and built by the ng-bootstrap team with the help of our contributors.\n\nCode licensed under MIT license conditions.\n\nDocumentation licensed under CC BY 3.0. Design and content of the documentation site heavily inspired by the original Bootstrap ",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       "id": 3
     },
     {
-      "name": "cups",
+      "name": "Nike Shoes",
       "price": "20000",
-      "color": "blue",
-      "Category": "grocery",
-      "Description": "Which types of work are subject to copyright?\nCopyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
-      "image": "https://cdn.shopify.com/s/files/1/2690/0106/products/MatteFinishCup_9.png?v=1605695308",
+      "color": "red",
+      "category": "shoes",
+      "description": "Designed and built by the ng-bootstrap team with the help of our contributors.\n\nCode licensed under MIT license conditions.\n\nDocumentation licensed under CC BY 3.0. Design and content of the documentation site heavily inspired by the original Bootstrap ",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
       "id": 4
     },
     {
-      "name": "cups",
+      "name": "Baby car",
       "price": "20000",
-      "color": "laptop",
-      "category": "grocery",
-      "description": "Which types of work are subject to copyright?\nCopyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
-      "image": "https://m.media-amazon.com/images/I/61HGZKNaU+L._SX425_.jpg",
+      "color": "red",
+      "category": "toys",
+      "description": "Designed and built by the ng-bootstrap team with the help of our contributors.\n\nCode licensed under MIT license conditions.\n\nDocumentation licensed under CC BY 3.0. Design and content of the documentation site heavily inspired by the original Bootstrap ",
+      "image": "https://images.unsplash.com/photo-1581235720704-06d3acfcb36f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80",
       "id": 5
     },
     {
-      "name": "cups",
-      "price": "20000",
-      "color": "laptop",
-      "category": "grocery",
-      "description": "Which types of work are subject to copyright?\nCopyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
-      "image": "https://www.bigbasket.com/media/uploads/p/xxl/40134648_2-iveo-chai100-melamine-smart-coffee-cup-set-red.jpg",
+      "name": "Amazon speaker",
+      "price": "2000",
+      "color": "grey",
+      "category": "speaker",
+      "description": "Designed and built by the ng-bootstrap team with the help of our contributors.\n\nCode licensed under MIT license conditions.\n\nDocumentation licensed under CC BY 3.0. Design and content of the documentation site heavily inspired by the original Bootstrap ",
+      "image": "https://images.unsplash.com/photo-1543512214-318c7553f230?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       "id": 6
+    }, {
+      "name": "Apple 200",
+      "price": "20000",
+      "color": "white",
+      "category": "watch",
+      "description": "Designed and built by the ng-bootstrap team with the help of our contributors.\n\nCode licensed under MIT license conditions.\n\nDocumentation licensed under CC BY 3.0. Design and content of the documentation site heavily inspired by the original Bootstrap ",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=799&q=80",
+      "id": 1
     },
     {
-      "name": "nokia ",
-      "price": "100000",
+      "name": "sunglasses black",
+      "price": "20000",
       "color": "black",
-      "category": "mobile",
-      "description": "Which types of work are subject to copyright? Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJu5fUeUN8aw3i7_3YdmE4SQ0dkYTomUk3rA&usqp=CAU",
-      "id": 14
+      "category": "glasses",
+      "description": "Designed and built by the ng-bootstrap team with the help of our contributors.\n\nCode licensed under MIT license conditions.\n\nDocumentation licensed under CC BY 3.0. Design and content of the documentation site heavily inspired by the original Bootstrap ",
+      "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+      "id": 2
     },
     {
-      "name": "nokia ",
-      "price": "100000",
+      "name": "boat headphone",
+      "price": "20000",
       "color": "black",
-      "category": "mobile",
-      "description": "Which types of work are subject to copyright? Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
-      "image": "https://5.imimg.com/data5/UH/JW/MY-40083844/nokia-1650-fm-mobile-phone-500x500.jpeg",
-      "id": 15
+      "category": "headphones",
+      "description": "Designed and built by the ng-bootstrap team with the help of our contributors.\n\nCode licensed under MIT license conditions.\n\nDocumentation licensed under CC BY 3.0. Design and content of the documentation site heavily inspired by the original Bootstrap ",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "id": 3
     },
     {
-      "name": "nokia ",
-      "price": "100000",
-      "color": "black",
-      "category": "mobile",
-      "description": "Which types of work are subject to copyright? Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
-      "image": "https://itronics.in/wp-content/uploads/2021/09/iphone-13-pink-select-2021.png",
-      "id": 16
+      "name": "Nike Shoes",
+      "price": "20000",
+      "color": "red",
+      "category": "shoes",
+      "description": "Designed and built by the ng-bootstrap team with the help of our contributors.\n\nCode licensed under MIT license conditions.\n\nDocumentation licensed under CC BY 3.0. Design and content of the documentation site heavily inspired by the original Bootstrap ",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "id": 4
     },
     {
-      "name": "nokia ",
-      "price": "100000",
-      "color": "black",
-      "category": "mobile",
-      "description": "Which types of work are subject to copyright? Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
-      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
-      "id": 18
+      "name": "Baby car",
+      "price": "20000",
+      "color": "red",
+      "category": "toys",
+      "description": "Designed and built by the ng-bootstrap team with the help of our contributors.\n\nCode licensed under MIT license conditions.\n\nDocumentation licensed under CC BY 3.0. Design and content of the documentation site heavily inspired by the original Bootstrap ",
+      "image": "https://images.unsplash.com/photo-1581235720704-06d3acfcb36f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80",
+      "id": 5
     },
     {
-      "name": "nokia ",
-      "price": "100000",
-      "color": "black",
-      "category": "mobile",
-      "description": "Which types of work are subject to copyright? Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
-      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
-      "id": 19
-    },
-    {
-      "name": "nokia ",
-      "price": "100000",
-      "color": "black",
-      "category": "mobile",
-      "description": "Which types of work are subject to copyright? Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
-      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
-      "id": 20
-    },
-    {
-      "name": "nokia ",
-      "price": "100000",
-      "color": "black",
-      "category": "mobile",
-      "description": "Which types of work are subject to copyright? Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
-      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
-      "id": 21
-    },
-    {
-      "name": "nokia ",
-      "price": "100000",
-      "color": "black",
-      "category": "mobile",
-      "description": "Which types of work are subject to copyright? Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
-      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
-      "id": 22
-    },
-    {
-      "name": "nokia ",
-      "price": "100000",
-      "color": "black",
-      "category": "mobile",
-      "description": "Which types of work are subject to copyright? Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
-      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
-      "id": 23
-    },
-    {
-      "name": "nokia ",
-      "price": "100000",
-      "color": "black",
-      "category": "mobile",
-      "description": "Which types of work are subject to copyright? Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
-      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
-      "id": 24
-    },
-    {
-      "name": "nokia ",
-      "price": "100000",
-      "color": "black",
-      "category": "mobile",
-      "description": "Which types of work are subject to copyright? Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
-      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
-      "id": 25
-    },
-    {
-      "name": "nokia ",
-      "price": "100000",
-      "color": "black",
-      "category": "mobile",
-      "description": "Which types of work are subject to copyright? Copyright ownership gives the owner the exclusive right to use the work, with some exceptions. When a person creates an original work, fixed in a tangible medium, he or she automatically owns copyright to the work",
-      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
-      "id": 26
+      "name": "Amazon speaker",
+      "price": "2000",
+      "color": "grey",
+      "category": "speaker",
+      "description": "Designed and built by the ng-bootstrap team with the help of our contributors.\n\nCode licensed under MIT license conditions.\n\nDocumentation licensed under CC BY 3.0. Design and content of the documentation site heavily inspired by the original Bootstrap ",
+      "image": "https://images.unsplash.com/photo-1543512214-318c7553f230?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "id": 6
     }
   ]
 }

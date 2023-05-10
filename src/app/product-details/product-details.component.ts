@@ -10,7 +10,7 @@ import { product } from '../data-type';
 })
 export class ProductDetailsComponent {
 productData:undefined|product;
-count:number=1;
+productquantity:number=1;
 constructor(private activateroute:ActivatedRoute, private product:ProductService){}
 ngOnInit(){
   let productId= this.activateroute.snapshot.paramMap.get('productId')
@@ -21,11 +21,11 @@ this.productData=result;
 })
 }
 
-inc(){
-  this.count=this.count+1;
+handelquantity(val:string){
+if(this.productquantity<20 &&  val=='plus'){
+  this.productquantity+=1
+}else if(this.productquantity>1 && val=='min'){
+  this.productquantity-=1;
 }
-
-dec(){
-this.count=this.count-1;
 }
 }

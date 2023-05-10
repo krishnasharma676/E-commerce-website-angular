@@ -3,7 +3,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  background-color: rgb(22,27,34);
+    color: white;
+    
   }
+  
   
   .product-image {
     flex: 1;
@@ -46,7 +50,8 @@
   
   .add-to-cart {
     padding: 10px 20px;
-    background-color: #333;
+    background-color: rgb(136,136,138);
+    ;
     color: #fff;
     border: none;
     cursor: pointer;

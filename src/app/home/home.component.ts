@@ -14,6 +14,7 @@ export class HomeComponent {
   popularproducts:undefined|product[];
 
   trendyproduct:undefined|product[];
+item: any;
 constructor(private product:ProductService){}
 
 ngOnInit(){

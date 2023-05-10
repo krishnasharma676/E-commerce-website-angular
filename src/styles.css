@@ -12,8 +12,12 @@ text-align: center;
 background-color: #000000c4;
 }
 
-/* body {
-    background-image: url('https://queue-it.com/media/ppcp1twv/product-drop.jpg');
+body {
+    background-image: url('https://media.istockphoto.com/id/1427483119/photo/white-marble-tabletop-or-countertop-in-loft-modern-and-minimal-concrete-wall-room-with.jpg?s=1024x1024&w=is&k=20&c=TFi_oTizgVKkeJZ7BEfw4_2eLSvOBy8610ZaGNrDGY4=');
     background-size: cover;
     background-repeat: no-repeat;
+  }
+
+  /* body{
+    background-color: #88888a;
   } */

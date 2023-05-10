@@ -59,4 +59,7 @@ submitinput(val:string){
 console.log(val)
 this.route.navigate([`Search/${val}`])
 }
+redirecttodetail(id:number){
+this.route.navigate(['/details/'+id])
+}
 }

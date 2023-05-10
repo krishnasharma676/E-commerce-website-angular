@@ -1,6 +1,6 @@
 <nav>
 	<div class="left">
-	 <a routerLink=""> <img src="https://imgs.search.brave.com/QGWBqFlUOLH-OAabvmKOMA5tRWB74QPnSZ69vLLLEoc/rs:fit:900:520:1/g:ce/aHR0cHM6Ly9tcG5n/LnN1YnBuZy5jb20v/MjAxODA0MDYvenpl/L2tpc3Nwbmctb25s/aW5lLXNob3BwaW5n/LXNob3BwaW5nLWNh/cnQtc29mdHdhcmUt/ZS1jb21tZXJjZS1z/b2xkLW91dC01YWM3/MTU2ZGYzYTE4Ny45/NTc0OTkyNzE1MjI5/OTY1ODk5OTc5Lmpw/Zw"
+	 <a routerLink=""> <img src="https://thumbs.dreamstime.com/b/black-ecommerce-icon-shopping-design-shopping-cart-simple-vector-sign-ecommerce-icon-shopping-design-shopping-cart-white-143026119.jpg"
 	  alt="Logo"></a>
 	  
 	</div>
@@ -8,7 +8,7 @@
 	  <input #searchinput type="text" (keyup)="searchproducts($event)" (blur)="hidesearch()" placeholder="Search...">
 	  <button (click)="submitinput(searchinput.value)" >search</button> 
 	  <ul class="suggested-result" *ngIf="searchresult">
-<li *ngFor="let item of searchresult"><a>{{item.name}}</a></li>
+<li *ngFor="let item of searchresult"><a (mousedown)="redirecttodetail(item.id)">{{item.name}}</a></li>
 	  </ul>
 	  
 
@@ -20,7 +20,7 @@
 		<ul *ngSwitchCase="'default'" >
 	  <a routerLink="seller">seller</a>
 	  <a routerLink="">Home</a>
-	  <a routerLink="seller">Login</a>
+	  <a routerLink="/user-auth">Login/signUp</a>
 	  <a routerLink="search">Cart</a>
 	</ul>
 		<ul *ngSwitchCase="'seller'" >

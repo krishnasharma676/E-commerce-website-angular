@@ -5,7 +5,7 @@
 >
 	<ng-template ngbSlide *ngFor="let item of popularproducts">
 		<div class="product-header-image">
-			<img src="{{item.image}}" alt="Random slide" />
+      <a routerLink="/details/{{item.id}}"><img src="{{item.image}}" alt="Random slide" /></a>
 		</div>
 		<div class="carousel-caption">
 			<h3>{{item.name}}</h3>
@@ -43,7 +43,7 @@
       
     </div>
     <div class="card-footer">
-     <a href="">view details</a>|<a href="">view product</a>
+      <a routerLink="/details/{{product.id}}">view details</a>|<a href="">view product</a>
     </div>
   </div>
 </div>

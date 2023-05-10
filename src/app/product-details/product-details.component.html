@@ -8,9 +8,9 @@
       <p>Description: {{productData.description}}</p>
       <p>Price: {{productData.price}}</p>
       <div class="quantity-controls">
-        <button class="quantity-button minus" (click)="dec()">-</button>
-        <span class="quantity">{{count}}</span>
-        <button class="quantity-button plus" (click)="inc()">+</button>
+        <button class="quantity-button minus" (click)="handelquantity('min')">-</button>
+        <span class="quantity">{{productquantity}}</span>
+        <button class="quantity-button plus" (click)="handelquantity('plus')">+</button>
       </div>
       
       <button class="add-to-cart">Add to Cart</button>
