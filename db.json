@@ -125,6 +125,24 @@
       "email": "",
       "password": "",
       "id": 21
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 22
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 23
+    },
+    {
+      "name": "Krishna Sharma ",
+      "email": "kkrishna6sharma@gmail.com",
+      "password": "@123",
+      "id": 24
     }
   ],
   "products": [
@@ -181,7 +199,8 @@
       "description": "Designed and built by the ng-bootstrap team with the help of our contributors.\n\nCode licensed under MIT license conditions.\n\nDocumentation licensed under CC BY 3.0. Design and content of the documentation site heavily inspired by the original Bootstrap ",
       "image": "https://images.unsplash.com/photo-1543512214-318c7553f230?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       "id": 6
-    }, {
+    },
+    {
       "name": "Apple 200",
       "price": "20000",
       "color": "white",
@@ -234,6 +253,14 @@
       "description": "Designed and built by the ng-bootstrap team with the help of our contributors.\n\nCode licensed under MIT license conditions.\n\nDocumentation licensed under CC BY 3.0. Design and content of the documentation site heavily inspired by the original Bootstrap ",
       "image": "https://images.unsplash.com/photo-1543512214-318c7553f230?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       "id": 6
+    }
+  ],
+  "users": [
+    {
+      "name": "Krishna Sharma ",
+      "email": "kkrishna6sharma@gmail.com",
+      "password": "@123",
+      "id": 1
     }
   ]
 }

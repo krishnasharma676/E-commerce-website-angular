@@ -1,6 +1,32 @@
-<div class="">
-<h1>User SignUp</h1>
-<form #userSignup="ngForm" (ngSubmit)="signUp(userSignup.value)">
 
-</form>
-</div>
+<div class="my-component">
+
+      <div *ngIf="!showlogin">
+    <form  #userSignup="ngForm" (ngSubmit)="signUp(userSignup.value)">
+      <h1 class="animated-heading">User Signup</h1>
+      <label for="name">Name:</label>
+      <input type="text"  name="name"  ngModel placeholder="Enter Name">
+      <label for="email">Email:</label>
+      <input  type="email" name="email" ngModel placeholder="Enter Email">
+      <label for="password">Password:</label>
+      <input  type="password"  name="password" ngModel placeholder="Password">
+      <button type="submit">SignUp</button>
+      <a (click)="openLogin()" class="home-link">Already Have an Account? Login In.</a>
+  
+    </form>
+  </div>
+
+  <div *ngIf="showlogin">
+    <form  #userlogin="ngForm" (ngSubmit)="login(userlogin.value)">
+      <h1 class="animated-heading">User SignIn</h1>
+      <label for="email">Email:</label>
+      <input  type="email" name="email" ngModel placeholder="Enter Email">
+      <label for="password">Password:</label>
+      <input  type="password"  name="password" ngModel placeholder="Password">
+      <button type="submit">Login</button>
+      <a (click)="openSignup()" class="home-link">dont have an account? Signup.</a>
+  
+    </form>
+  </div>
+    
+  </div>

@@ -10,12 +10,10 @@
 	  <ul class="suggested-result" *ngIf="searchresult">
 <li *ngFor="let item of searchresult"><a (mousedown)="redirecttodetail(item.id)">{{item.name}}</a></li>
 	  </ul>
-	  
+	
+	</div>
 
 	
-
-
-	</div>
 	<div [ngSwitch]="menutype"  class="right">
 		<ul *ngSwitchCase="'default'" >
 	  <a routerLink="seller">seller</a>
@@ -23,6 +21,18 @@
 	  <a routerLink="/user-auth">Login/signUp</a>
 	  <a routerLink="search">Cart</a>
 	</ul>
+
+		<ul *ngSwitchCase="'user'" >
+	  <a routerLink="seller">seller</a>
+	  <a routerLink="">Home</a>
+	  <a routerLink="">{{userName | titlecase}}</a>
+	  <a (click)="userLogOut()">Logout</a>
+	  <a routerLink="search">Cart</a>
+	</ul>
+
+
+
+
 		<ul *ngSwitchCase="'seller'" >
 	  <a routerLink="seller-add-product">Add Product</a>
 	  <a routerLink="seller-home">List</a>
